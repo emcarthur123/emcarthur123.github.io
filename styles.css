@@ -50,3 +50,121 @@ h1, h2, h3, p { margin-top: 0; }h1 { font: 500 clamp(64px, 8vw, 108px)/.98 var(-
   object-position: center;
   border-radius: 50%;
 }
+
+
+/* Research projects and publications */
+
+.research-projects {
+  padding-top: 115px;
+  padding-bottom: 115px;
+  border-top: 1px solid var(--line);
+}
+
+.research-projects .section-heading {
+  max-width: 700px;
+  margin-bottom: 55px;
+}
+
+.research-projects .section-heading .muted-note {
+  margin-top: 22px;
+}
+
+.research-publication-list {
+  border-top: 1px solid var(--line);
+}
+
+.research-publication {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 38px;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-image {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+
+.research-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .35s ease;
+}
+
+.research-image:hover img {
+  transform: scale(1.04);
+}
+
+.research-description h3 {
+  font: 500 24px/1.3 var(--serif);
+  margin: 13px 0;
+}
+
+.research-description p {
+  max-width: 650px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+  margin-bottom: 0;
+}
+
+.publication-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin-top: 65px;
+  padding: 35px;
+  border: 1px solid var(--line);
+  background: linear-gradient(
+    120deg,
+    rgba(22,37,59,.75),
+    rgba(9,15,27,.4)
+  );
+}
+
+.publication-footer h3 {
+  font: 500 28px var(--serif);
+  margin: 12px 0;
+}
+
+.publication-footer .muted-note {
+  margin-bottom: 0;
+}
+
+.publication-footer .publication-links {
+  min-width: 180px;
+}
+
+@media (max-width: 760px) {
+  .research-projects {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .research-publication {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .research-image {
+    height: 210px;
+  }
+
+  .publication-footer {
+    display: block;
+    padding: 27px;
+  }
+
+  .publication-footer .publication-links {
+    margin-top: 25px;
+  }
+}
+
