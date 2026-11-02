@@ -201,3 +201,67 @@ h1, h2, h3, p { margin-top: 0; }h1 { font: 500 clamp(64px, 8vw, 108px)/.98 var(-
   }
 }
 
+
+/* Outreach section */
+
+.outreach {
+  padding-top: 90px;
+  padding-bottom: 110px;
+  border-top: 1px solid var(--line);
+}
+
+.outreach-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 65px;
+  align-items: center;
+}
+
+.outreach-image {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--panel);
+}
+
+.outreach-image img {
+  display: block;
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.outreach-copy h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font: 500 42px/1.2 var(--serif);
+}
+
+.outreach-copy .body-copy p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 760px) {
+  .outreach {
+    padding-top: 70px;
+    padding-bottom: 75px;
+  }
+
+  .outreach-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .outreach-image img {
+    height: 300px;
+  }
+
+  .outreach-copy h2 {
+    font-size: 34px;
+  }
+}
