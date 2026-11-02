@@ -1,171 +1,336 @@
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta name="description" content="Everett McArthur — astrophysics researcher exploring quasars, gravitational lensing, brown dwarfs, and galactic dynamics.">
   <meta name="author" content="Everett McArthur">
   <meta name="theme-color" content="#080d18">
+
   <meta property="og:title" content="Everett McArthur | Astrophysics">
   <meta property="og:description" content="Research, projects, and ideas in astrophysics.">
   <meta property="og:type" content="website">
+
   <title>Everett McArthur | Astrophysics</title>
+
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
   <div class="starfield" aria-hidden="true"></div>
+
+  <!-- HEADER -->
   <header class="site-header">
-    <a class="wordmark" href="#home" aria-label="Everett McArthur home">EM<span>.</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <a class="wordmark" href="#home" aria-label="Everett McArthur home">
+      EM<span>.</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      Menu
+    </button>
+
     <nav class="nav" aria-label="Main navigation">
       <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#publications">Publications</a>
+      <a href="#research-projects">Research Projects & Publications</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
+
   <main>
+
+    <!-- HERO -->
     <section class="hero section-shell" id="home">
+
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> ASTROPHYSICS · RESEARCH & IDEAS</p>
-        <h1>Everett<br><em>McArthur</em></h1>
-        <p class="hero-intro">Exploring the universe across scales — from distant quasars and gravitational lenses to the atmospheres of substellar worlds and the dynamics of our galaxy.</p>
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          ASTROPHYSICS · RESEARCH & IDEAS
+        </p>
+
+        <h1>
+          Everett<br>
+          <em>McArthur</em>
+        </h1>
+
+        <p class="hero-intro">
+          Exploring the universe across scales — from distant quasars
+          and gravitational lenses to the atmospheres of substellar
+          worlds and the dynamics of our galaxy.
+        </p>
+
         <div class="hero-actions">
-          <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+          <a class="button button-primary" href="#research-projects">
+            Explore my research <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="text-link" href="#contact">
+            Get in touch <span aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
+
       <div class="hero-visual">
-        <img
-          src="assets/profile.jpeg"
-          alt="Portrait of Everett McArthur"
-          class="profile-photo"
-        />
+        <div class="profile-frame">
+          <img
+            src="assets/profile.jpeg"
+            alt="Portrait of Everett McArthur"
+            class="profile-photo"
+          >
+        </div>
+
         <div class="visual-caption">
           <span>EVERETT MCARTHUR</span>
           <span>ASTROPHYSICS</span>
         </div>
       </div>
-      <div class="hero-foot"><span>INDEPENDENTLY CURIOUS</span><span>SCROLL TO EXPLORE ↓</span></div>
+
+      <div class="hero-foot">
+        <span>INDEPENDENTLY CURIOUS</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+      </div>
+
     </section>
 
+
+    <!-- ABOUT -->
     <section class="intro section-shell" id="about">
+
       <p class="section-kicker">01 — A LITTLE ABOUT ME</p>
+
       <div class="intro-grid">
-        <h2>Looking outward.<br><em>Asking better questions.</em></h2>
+
+        <h2>
+          Looking outward.<br>
+          <em>Asking better questions.</em>
+        </h2>
+
         <div class="body-copy">
-          <p>I’m an astrophysics researcher interested in how we can use observations and computational models to understand objects and structures across the universe.</p>
-          <p>My interests span gravitational lensing and quasars, brown dwarf atmospheres, and the evolution and dynamics of the Milky Way. I’m drawn to problems where careful physical reasoning meets modern data analysis.</p>
-          <a class="text-link" href="#contact">More about my work <span aria-hidden="true">→</span></a>
+          <p>
+            I’m an astrophysics researcher interested in how we can use
+            observations and computational models to understand objects
+            and structures across the universe.
+          </p>
+
+          <p>
+            My interests span gravitational lensing and quasars,
+            brown dwarf atmospheres, and the evolution and dynamics
+            of the Milky Way. I’m drawn to problems where careful
+            physical reasoning meets modern data analysis.
+          </p>
+
+          <a class="text-link" href="#research-projects">
+            Explore my research <span aria-hidden="true">→</span>
+          </a>
         </div>
+
       </div>
     </section>
 
 
+    <!-- RESEARCH PROJECTS AND PUBLICATIONS -->
     <section class="research-projects section-shell" id="research-projects">
+
       <div class="section-heading">
+
         <p class="section-kicker">02 — RESEARCH & SELECTED WORK</p>
-        <h2>Research Projects<br><em>and Publications.</em></h2>
+
+        <h2>
+          Research Projects<br>
+          <em>and Publications.</em>
+        </h2>
+
         <p class="muted-note">
           Exploring questions across astrophysics, from distant quasars
           to the dynamics and evolution of our own galaxy.
         </p>
+
       </div>
-    
+
+
       <div class="research-publication-list">
-    
+
+
+        <!-- PROJECT 1: QUASARS -->
         <article class="research-publication">
+
           <div class="research-image">
-            <img src="assets/quasar-lensing.jpg"
-                 alt="Quasar gravitational lensing visualization">
+            <img
+              src="assets/quasar-lensing.jpg"
+              alt="Quasar gravitational lensing visualization"
+              loading="lazy"
+            >
           </div>
+
           <div class="research-description">
-            <span class="project-index">01 / GRAVITATIONAL LENSING</span>
+
+            <span class="project-index">
+              01 / GRAVITATIONAL LENSING
+            </span>
+
             <h3>Quasar host galaxies through strong lensing</h3>
+
             <p>
               Using strongly lensed quasars to investigate the mass
               distribution of quasar host systems and the galaxies
               that surround them.
             </p>
+
           </div>
+
         </article>
-    
+
+
+        <!-- PROJECT 2: BROWN DWARFS -->
         <article class="research-publication">
+
           <div class="research-image">
-            <img src="assets/brown-dwarf.jpg"
-                 alt="Brown dwarf atmosphere visualization">
+            <img
+              src="assets/brown-dwarf.jpg"
+              alt="Brown dwarf atmosphere visualization"
+              loading="lazy"
+            >
           </div>
+
           <div class="research-description">
-            <span class="project-index">02 / SUBSTELLAR ATMOSPHERES</span>
+
+            <span class="project-index">
+              02 / SUBSTELLAR ATMOSPHERES
+            </span>
+
             <h3>Retrieving substellar atmospheres</h3>
+
             <p>
               Studying brown dwarf atmospheres through high-resolution
               spectroscopy, atmospheric models, and Bayesian retrieval
               methods.
             </p>
+
           </div>
+
         </article>
-    
+
+
+        <!-- PROJECT 3: GALACTIC DYNAMICS -->
         <article class="research-publication">
+
           <div class="research-image">
-            <img src="assets/galactic-dynamics.jpg"
-                 alt="Milky Way and interstellar medium visualization">
+            <img
+              src="assets/galactic-dynamics.jpg"
+              alt="Milky Way and interstellar medium visualization"
+              loading="lazy"
+            >
           </div>
+
           <div class="research-description">
-            <span class="project-index">03 / GALACTIC DYNAMICS</span>
+
+            <span class="project-index">
+              03 / GALACTIC DYNAMICS
+            </span>
+
             <h3>Stars, gas, and radial migration</h3>
+
             <p>
               Exploring how stars inherit the kinematics of their birth
               environments, and how their motions evolve as they move
               away from their natal molecular clouds.
             </p>
+
           </div>
+
         </article>
-    
+
       </div>
-    
+
+
+      <!-- PUBLICATIONS -->
       <div class="publication-footer">
+
         <div>
-          <p class="section-kicker">PUBLICATIONS & WRITING</p>
+
+          <p class="section-kicker">
+            PUBLICATIONS & WRITING
+          </p>
+
           <h3>Research, in print.</h3>
+
           <p class="muted-note">
             Selected papers, preprints, talks, and posters.
             A complete publication list is available through the links.
           </p>
+
         </div>
+
         <div class="publication-links">
+
           <a href="https://arxiv.org/" target="_blank" rel="noreferrer">
             arXiv <span>↗</span>
           </a>
+
           <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">
             Google Scholar <span>↗</span>
           </a>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- CONTACT -->
     <section class="contact section-shell" id="contact">
-      <p class="section-kicker">05 — CONTACT</p>
+
+      <p class="section-kicker">03 — CONTACT</p>
+
       <div class="contact-inner">
-        <h2>Let’s talk about<br><em>science</em></h2>
-        <p>For research conversations, collaborations, or just to connect, feel free to reach out.</p>
-        <!-- Replace this placeholder with your preferred public email address. -->
-        <a class="button button-primary" href="mailto:mcarthur.56@osu.edu">Send an email <span aria-hidden="true">↗</span></a>
+
+        <h2>
+          Let’s talk about<br>
+          <em>science</em>
+        </h2>
+
+        <p>
+          For research conversations, collaborations, or just to connect,
+          feel free to reach out.
+        </p>
+
+        <a class="button button-primary" href="mailto:mcarthur.56@osu.edu">
+          Send an email <span aria-hidden="true">↗</span>
+        </a>
+
       </div>
+
     </section>
+
   </main>
 
+
+  <!-- FOOTER -->
   <footer class="site-footer">
-    <a class="wordmark" href="#home">EM<span>.</span></a>
+
+    <a class="wordmark" href="#home">
+      EM<span>.</span>
+    </a>
+
     <p>© <span id="year"></span> Everett McArthur</p>
+
     <a href="#home">Back to top ↑</a>
+
   </footer>
+
+
   <script src="script.js"></script>
+
 </body>
 </html>
