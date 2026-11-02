@@ -348,3 +348,23 @@ h1, h2, h3, p { margin-top: 0; }h1 { font: 500 clamp(64px, 8vw, 108px)/.98 var(-
     gap: 18px;
   }
 }
+
+
+/* Individual brand colors */
+.hero-socials a:nth-child(1) svg {
+  color: #ffffff; /* GitHub */
+}
+
+.hero-socials a:nth-child(2) svg {
+  color: #A6CE39; /* ORCID green */
+}
+
+.hero-socials a:nth-child(3) svg {
+  color: #BB0000; /* Ohio State scarlet */
+}
+
+/* Slightly brighten icons on hover */
+.hero-socials a:hover svg {
+  filter: brightness(1.25);
+}
+
