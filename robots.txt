@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://emcarthur123.github.io/sitemap.xml
