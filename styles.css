@@ -30,7 +30,7 @@ h1, h2, h3, p { margin-top: 0; }h1 { font: 500 clamp(64px, 8vw, 108px)/.98 var(-
 /* Profile photo */
 .profile-frame {
   position: relative;
-  width: min(200px, 55vw);
+  width: min(140px, 40vw);
   aspect-ratio: 1;
   border-radius: 50%;
   padding: 4px;
